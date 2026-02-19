@@ -144,6 +144,13 @@ body {
     border-radius: 10px;
 }
 
+/* Hover State - Changes the whole button background */
+.btn:hover {
+    background-color: #9dc9f8; /* The lighter blue you requested */
+    color: #ffffff;            /* Keeps text white on hover */
+    font-weight: bold;         /* Note: 'bold' is used with font-weight, not font-style */
+}
+
 /* Sidebar */
 .sidebar-widget {
     background: #fff;
