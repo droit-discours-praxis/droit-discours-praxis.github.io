@@ -95,7 +95,7 @@ body {
 /* Layout */
 .main-layout {
     display: grid;
-    grid-template-columns: minmax(0, 3fr) minmax(0, 1fr)
+    grid-template-columns: 3fr 1fr;
     gap: 40px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -107,7 +107,6 @@ body {
     background: #fff;
     padding: 30px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-	overflow-wrap: break-word;
 }
 
 .content h2 {
